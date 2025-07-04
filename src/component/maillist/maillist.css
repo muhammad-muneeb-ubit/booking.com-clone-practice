@@ -1,0 +1,77 @@
+.mail {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #003580;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail-checkbox {
+    display: flex;
+    gap: 5px;
+}
+
+.mail-inputfield {
+    width: 300px;
+    height: 30px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.mail-button {
+    width: 100px;
+    height: 30px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tablet Screens (≤768px) */
+@media screen and (max-width: 768px) {
+    .mail {
+        padding: 30px 20px;
+    }
+
+    .mail-inputfield {
+        width: 250px;
+    }
+
+    .mail-button {
+        width: 90px;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile Screens (≤480px) */
+@media screen and (max-width: 480px) {
+    .mail {
+        padding: 20px 15px;
+    }
+
+    .mail-checkbox {
+        /* flex-direction: column; */
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mail-inputfield {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .mail-button {
+        width: 100%;
+        height: 35px;
+        margin-top: 10px;
+    }
+}
